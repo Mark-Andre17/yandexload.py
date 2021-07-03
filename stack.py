@@ -2,7 +2,6 @@ import requests, datetime, pprint
 from datetime import datetime, timedelta
 from pprint import pprint
 
-
 def get_question(days, tag):
     end_date = datetime.now()
     start_date = end_date - timedelta(days=days)
